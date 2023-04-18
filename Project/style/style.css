@@ -1,214 +1,149 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-.shekil {
-  display: flex;
-}
-
-@media (max-width: 1200px) {
-  .shekil {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+body{
+    font-family: 'Inter', sans-serif;
   }
-}
-* {
-  font-family: Open Sans;
-}
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #333;
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-}
-
-.footer-distributed {
-  background: #212529;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  font: bold 16px sans-serif;
-  padding: 55px 50px;
-}
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right {
-  display: inline-block;
-  vertical-align: top;
-}
-
-/* Footer left */
-.footer-distributed .footer-left {
-  width: 40%;
-}
-
-/* The company logo */
-.footer-distributed h3 {
-  color: #ffffff;
-  font: normal 36px "Open Sans", cursive;
-  margin: 0;
-}
-
-.footer-distributed h3 span {
-  color: yellow;
-}
-
-/* Footer links */
-.footer-distributed .footer-links {
-  color: #ffffff;
-  margin: 20px 0 12px;
-  padding: 0;
-}
-
-.footer-distributed .footer-links a {
-  display: inline-block;
-  line-height: 1.8;
-  font-weight: 400;
-  text-decoration: none;
-  color: inherit;
-}
-
-.footer-distributed .footer-company-name {
-  color: #222;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
-}
-
-/* Footer Center */
-.footer-distributed .footer-center {
-  width: 35%;
-}
-
-.footer-distributed .footer-center i {
-  background-color: #04324f;
-  color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
-  vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope {
-  font-size: 17px;
-  line-height: 38px;
-}
-
-.footer-distributed .footer-center p {
-  display: inline-block;
-  color: #ffffff;
-  font-weight: 400;
-  vertical-align: middle;
-  margin: 0;
-}
-
-.footer-distributed .footer-center p span {
-  display: block;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 2;
-}
-
-.footer-distributed .footer-center p a {
-  color: yellow;
-  text-decoration: none;
-}
-
-.footer-distributed .footer-links a:before {
-  content: "|";
-  font-weight: 300;
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
-}
-
-.footer-distributed .footer-links .link-1:before {
-  content: none;
-}
-
-/* Footer Right */
-.footer-distributed .footer-right {
-  width: 20%;
-}
-
-.footer-distributed .footer-company-about {
-  line-height: 20px;
-  color: #092a46;
-  font-size: 13px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.footer-distributed .footer-company-about span {
-  display: block;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons {
-  margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  background-color: #12242f;
-  border-radius: 2px;
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-@media (max-width: 880px) {
-  .footer-distributed {
-    font: bold 14px sans-serif;
+  a {
+    text-decoration: none;
+    color: white;
   }
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right {
-    display: block;
+  .nav-link:hover{
+    color:#ff8d1e;
+  }
+  .az:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+  }
+  .sekil{
+    height: 700px;
     width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
+    background-color: rebeccapurple;
   }
-  .footer-distributed .footer-center i {
-    margin-left: 0;
+  .img{
+    background-image: url(banner.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
-}
-.container1 {
-  width: 90%;
-}
-
-.spl {
-  background-color: yellow;
-}
-
-.nuro {
-  margin: 20px;
-}
-
-a {
-  color: white;
-}/*# sourceMappingURL=style.css.map */
-a {
-  color: white;
-}
+  .spl {
+    background-color: orange;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  .geofizikakomite{
+    font-size: 1.9rem;
+  }
+  #haqqimizda{
+    padding: 80px 0 0;
+  }
+  .haqqimizda > p, h5, h6{
+    padding: 0 5px ;
+  }
+  
+  .box-item{
+    display: flex;
+  }
+  .item {
+    width: 50%;
+  }
+  .item1{
+    width: 50%;
+  }
+  .kart{
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .kart::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        left: 0;
+        position: absolute;
+        background-color: #ff8d1e;
+        z-index: -1;
+        transition: 0.4s;
+    }
+    .kart:hover{
+        background-color:#fff;  
+        color: #0B5ED7;
+    }
+    .kart:hover h2,
+    .kart:hover p{
+      color: black;
+    }
+    .kart:hover::after{
+        opacity: 1;
+        top: 0;
+    }
+    .card-effect{
+        box-shadow: 5px 10px 10px #888 ;
+        background-color:#fff;
+        padding: 25px;
+        transition: 0.4s;
+    }
+    .card-effect:hover{
+        transform: translateY(0px);
+    }
+    .photo{
+      width: 95%;
+    }
+    .jusrnalhisse{
+      display: flex;
+      margin-top: 80px;
+      flex-direction: row-reverse;
+    }
+    .jusrnalhisse>h5{
+      padding-left: 100px;
+      line-height: 40px;
+    }
+    .left{
+      width: 50%;
+    }
+    .left>h5{
+      line-height: 40px;
+    }
+    .right{
+      width: 50%;
+    }
+    .son{
+      line-height: 40px;
+    }
+  @media(max-width:600px) {
+    .geofizikakomite{
+      font-size: 1.2rem;
+    }
+    .item1{
+      width: 100%;
+    }
+    .box-item{
+      display: none;
+    }
+    .sekil{
+      height: 300px;
+    }
+    .photo{
+      width: 100%;
+    }
+    .jusrnalhisse{
+      display: inline;
+    }
+    .right{
+      width: 100%;
+    }
+    .left{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .son{
+      line-height: 30px;
+    }
+  }
+  @media(max-width:1400px){
+    .left>h5{
+      font-size: 15px;
+      line-height: normal;
+    }
+  }

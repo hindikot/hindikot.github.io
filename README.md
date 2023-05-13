@@ -1,2 +1,2 @@
 # hindikot.github.io
-Müfəqqəti narahatçılıqa görə üzr istəyirik WikMaga Live Edition Beta buglardan təmizlənənə kimi gözləyin 
+Müfəqqəti narahatçılıqa görə üzr istəyirik AMGK.AZ xətalardan təmizlənənə kimi gözləyin 
